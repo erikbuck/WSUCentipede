@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034347CB1D1A239300E757C4 /* Pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 034347CA1D1A239300E757C4 /* Pew.mp3 */; };
+		034347D21D1A2C8B00E757C4 /* Glass.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 034347D01D1A2C8B00E757C4 /* Glass.aiff */; };
+		034347D31D1A2C8B00E757C4 /* Pop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 034347D11D1A2C8B00E757C4 /* Pop.aiff */; };
+		034DAED51D136BD600D5674F /* draft3.png in Resources */ = {isa = PBXBuildFile; fileRef = 034DAED41D136BD600D5674F /* draft3.png */; };
+		03A334311D0FB497005AAE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A334301D0FB497005AAE97 /* main.m */; };
+		03A334341D0FB497005AAE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A334331D0FB497005AAE97 /* AppDelegate.m */; };
+		03A334371D0FB497005AAE97 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A334361D0FB497005AAE97 /* GameScene.m */; };
+		03A334391D0FB497005AAE97 /* Prototypes.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03A334381D0FB497005AAE97 /* Prototypes.sks */; };
+		03A3343C1D0FB497005AAE97 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A3343B1D0FB497005AAE97 /* GameViewController.m */; };
+		03A3343F1D0FB497005AAE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A3343D1D0FB497005AAE97 /* Main.storyboard */; };
+		03A334411D0FB497005AAE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A334401D0FB497005AAE97 /* Assets.xcassets */; };
+		03A334441D0FB497005AAE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A334421D0FB497005AAE97 /* LaunchScreen.storyboard */; };
+		03E8ECF81D13020F0080C169 /* images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 03E8ECF71D13020F0080C169 /* images.atlas */; };
+		03E8ECFE1D1314990080C169 /* WSUCentipede.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E8ECFD1D1314990080C169 /* WSUCentipede.m */; };
+		03E8ED011D1319360080C169 /* WSUBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E8ED001D1319360080C169 /* WSUBoard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034347CA1D1A239300E757C4 /* Pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pew.mp3; sourceTree = "<group>"; };
+		034347D01D1A2C8B00E757C4 /* Glass.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Glass.aiff; sourceTree = "<group>"; };
+		034347D11D1A2C8B00E757C4 /* Pop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Pop.aiff; sourceTree = "<group>"; };
+		034DAED41D136BD600D5674F /* draft3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draft3.png; sourceTree = "<group>"; };
+		03A3342C1D0FB497005AAE97 /* WSUCentipede1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSUCentipede1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A334301D0FB497005AAE97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03A334321D0FB497005AAE97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03A334331D0FB497005AAE97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03A334351D0FB497005AAE97 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		03A334361D0FB497005AAE97 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		03A334381D0FB497005AAE97 /* Prototypes.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Prototypes.sks; sourceTree = "<group>"; };
+		03A3343A1D0FB497005AAE97 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		03A3343B1D0FB497005AAE97 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		03A3343E1D0FB497005AAE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03A334401D0FB497005AAE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03A334431D0FB497005AAE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03A334451D0FB497005AAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E8ECF71D13020F0080C169 /* images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = images.atlas; sourceTree = "<group>"; };
+		03E8ECFC1D1314990080C169 /* WSUCentipede.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUCentipede.h; sourceTree = "<group>"; };
+		03E8ECFD1D1314990080C169 /* WSUCentipede.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUCentipede.m; sourceTree = "<group>"; };
+		03E8ECFF1D1319360080C169 /* WSUBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUBoard.h; sourceTree = "<group>"; };
+		03E8ED001D1319360080C169 /* WSUBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUBoard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A334291D0FB497005AAE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A334231D0FB497005AAE97 = {
+			isa = PBXGroup;
+			children = (
+				03A3342E1D0FB497005AAE97 /* WSUCentipede */,
+				03A3342D1D0FB497005AAE97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03A3342D1D0FB497005AAE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A3342C1D0FB497005AAE97 /* WSUCentipede1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A3342E1D0FB497005AAE97 /* WSUCentipede */ = {
+			isa = PBXGroup;
+			children = (
+				03E8ECF71D13020F0080C169 /* images.atlas */,
+				03E8ECF91D1314080080C169 /* Controller */,
+				03E8ECFA1D1314150080C169 /* Model */,
+				03E8ECFB1D1314240080C169 /* View */,
+				03A3342F1D0FB497005AAE97 /* Supporting Files */,
+			);
+			path = WSUCentipede;
+			sourceTree = "<group>";
+		};
+		03A3342F1D0FB497005AAE97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034347D01D1A2C8B00E757C4 /* Glass.aiff */,
+				034347D11D1A2C8B00E757C4 /* Pop.aiff */,
+				034347CA1D1A239300E757C4 /* Pew.mp3 */,
+				034DAED41D136BD600D5674F /* draft3.png */,
+				03A334451D0FB497005AAE97 /* Info.plist */,
+				03A334301D0FB497005AAE97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03E8ECF91D1314080080C169 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03A334321D0FB497005AAE97 /* AppDelegate.h */,
+				03A334331D0FB497005AAE97 /* AppDelegate.m */,
+				03A3343A1D0FB497005AAE97 /* GameViewController.h */,
+				03A3343B1D0FB497005AAE97 /* GameViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		03E8ECFA1D1314150080C169 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03A334351D0FB497005AAE97 /* GameScene.h */,
+				03A334361D0FB497005AAE97 /* GameScene.m */,
+				03A334381D0FB497005AAE97 /* Prototypes.sks */,
+				03E8ECFC1D1314990080C169 /* WSUCentipede.h */,
+				03E8ECFD1D1314990080C169 /* WSUCentipede.m */,
+				03E8ECFF1D1319360080C169 /* WSUBoard.h */,
+				03E8ED001D1319360080C169 /* WSUBoard.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		03E8ECFB1D1314240080C169 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03A3343D1D0FB497005AAE97 /* Main.storyboard */,
+				03A334401D0FB497005AAE97 /* Assets.xcassets */,
+				03A334421D0FB497005AAE97 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03A3342B1D0FB497005AAE97 /* WSUCentipede1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A334481D0FB497005AAE97 /* Build configuration list for PBXNativeTarget "WSUCentipede1" */;
+			buildPhases = (
+				03A334281D0FB497005AAE97 /* Sources */,
+				03A334291D0FB497005AAE97 /* Frameworks */,
+				03A3342A1D0FB497005AAE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSUCentipede1;
+			productName = WSUCentipede;
+			productReference = 03A3342C1D0FB497005AAE97 /* WSUCentipede1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03A334241D0FB497005AAE97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WSU;
+				TargetAttributes = {
+					03A3342B1D0FB497005AAE97 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 03A334271D0FB497005AAE97 /* Build configuration list for PBXProject "WSUCentipede1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03A334231D0FB497005AAE97;
+			productRefGroup = 03A3342D1D0FB497005AAE97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A3342B1D0FB497005AAE97 /* WSUCentipede1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A3342A1D0FB497005AAE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034347D31D1A2C8B00E757C4 /* Pop.aiff in Resources */,
+				034DAED51D136BD600D5674F /* draft3.png in Resources */,
+				034347D21D1A2C8B00E757C4 /* Glass.aiff in Resources */,
+				034347CB1D1A239300E757C4 /* Pew.mp3 in Resources */,
+				03A334391D0FB497005AAE97 /* Prototypes.sks in Resources */,
+				03E8ECF81D13020F0080C169 /* images.atlas in Resources */,
+				03A334441D0FB497005AAE97 /* LaunchScreen.storyboard in Resources */,
+				03A334411D0FB497005AAE97 /* Assets.xcassets in Resources */,
+				03A3343F1D0FB497005AAE97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A334281D0FB497005AAE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E8ECFE1D1314990080C169 /* WSUCentipede.m in Sources */,
+				03A3343C1D0FB497005AAE97 /* GameViewController.m in Sources */,
+				03A334341D0FB497005AAE97 /* AppDelegate.m in Sources */,
+				03A334371D0FB497005AAE97 /* GameScene.m in Sources */,
+				03E8ED011D1319360080C169 /* WSUBoard.m in Sources */,
+				03A334311D0FB497005AAE97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03A3343D1D0FB497005AAE97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A3343E1D0FB497005AAE97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03A334421D0FB497005AAE97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A334431D0FB497005AAE97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03A334461D0FB497005AAE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03A334471D0FB497005AAE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03A334491D0FB497005AAE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSUCentipede/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WSU.WSUCentipede;
+				PRODUCT_NAME = WSUCentipede1;
+			};
+			name = Debug;
+		};
+		03A3344A1D0FB497005AAE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSUCentipede/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WSU.WSUCentipede;
+				PRODUCT_NAME = WSUCentipede1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A334271D0FB497005AAE97 /* Build configuration list for PBXProject "WSUCentipede1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A334461D0FB497005AAE97 /* Debug */,
+				03A334471D0FB497005AAE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A334481D0FB497005AAE97 /* Build configuration list for PBXNativeTarget "WSUCentipede1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A334491D0FB497005AAE97 /* Debug */,
+				03A3344A1D0FB497005AAE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03A334241D0FB497005AAE97 /* Project object */;
+}
